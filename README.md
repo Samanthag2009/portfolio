@@ -6,56 +6,36 @@ This webpage serves as a portfolio for Samantha Gosselin, featuring information 
 
 This page is a responsive design fit for desktop and mobile consumption, as seen below:
 
+<img src="/Users/samanthagosselin/repos/portfolio/assets/desktopview.png" /> 
+<figcaption align = "center"><b>Desktop View at 1200px</b></figcaption>
 
+<img src="/Users/samanthagosselin/repos/portfolio/assets/tabletview.png" /> 
+<figcaption align = "center"><b>Tablet View at 768px</b></figcaption>
+
+<img src="/Users/samanthagosselin/repos/portfolio/assets/mobileview.png" /> 
+<figcaption align = "center"><b>Mobile View at 320px</b></figcaption>
 
 ## Getting Started
 
+This webpage is viewable on mobile phone, tablet, and desktop sizes for ease of use.
 
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Samantha Gosselin
+samanthag2009@gmail.com
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
 
-## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [DomPizzie](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
+* [W3Schools](https://www.w3schools.com)
+* [Nav Bar Inspiration](https://samanthag2009.github.io/Challenge02-Horiseon/)
+* [Wireframe](https://docs.google.com/presentation/d/19cXgwjjTrGf_klhwsymgTAHX1RpCyyygXCqrwh_9E4I/edit#slide=id.p)
