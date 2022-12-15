@@ -4,17 +4,20 @@
     padding: 0%;
 
 }
-
+/* Navigational bar and header; when the links are clicked, they respond by navigating to that part of the page*/
 .navbar {
     padding: 38px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #6e0d0d;
     color: #ffffff;
-    width: 100%;
+    width: 101%;
     Height: 25%;
     position: relative;
 }
-
+a {
+text-decoration: none;
+color: #ffffff 
+}
 .navbar h1 {
     display: inline;
     font-size: 36px;
@@ -38,7 +41,7 @@
     float: right;
     position: relative;
     top: -54px;
-    right: -31px
+  
 }
 
 .navbar nav ul li {
@@ -46,16 +49,19 @@
     text-align: right;
     display: inline;
 }
+/* A hero image acting as the avatar for my website; complete with inspiring quote. */
+    .hero {
+        height: 200px;
+        width: 110%;
+        margin-bottom: 25px;
+        background-image: url(file:///Users/samanthagosselin/repos/portfolio/assets/banner.jpg);
+        background-size: cover;
+        background-position: center;
+      position:relative;
+      right: 55px;
+    }
 
-.hero {
-    height: 200px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url(file:///Users/samanthagosselin/repos/portfolio/assets/banner.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
+/*The "About Me" section */
 .title {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
@@ -84,7 +90,7 @@
     width: 75%
 }
 
-
+/* The "My Work" section. There is nothing to display, but placeholders are present with clickable links that navigate to a new tab. */
 .title2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
@@ -106,7 +112,7 @@
 }
 
 .comingsoon1 {
-    width:500px;
+    width:550px;
     height:400px;
     left: 16%;
     top: -250px;
@@ -116,12 +122,470 @@
 }
 
 .card {
+    display: inline;
     flex: 1 0 0;
     
-    hieght: 183px;
+    height: 183px;
     width: 275px;
     position: relative;
     top: -250px;
     right: -120px;
     
+  }
+
+  /*The "Contact Me" section. No real contact information is listed as of yet, but applicable links in Email and Linked in are functioning links that navigate to a new tab. */
+  .title3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 2%;
+    top:-195px;
+}
+
+.vertical3 {
+    border-left: 3px solid black;
+    position: relative;
+    height: 60px;
+    top: -238px;
+    Left: 15%;
+    
+}
+  .contact ul li {
+    list-style-type: none;
+    width: 406px;
+    position: relative;
+    top: -300px;
+    right: -151px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: black;
+      text-decoration: underline;
+  }
+/* Footer section*/
+
+.footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    background-color: #6e0d0d;
+    color: #ffffff;
+    width: 110%;
+display: inline-block;
+  position: relative;
+  
+}
+
+h4 {
+  right: -215px;
+  position: relative
+}
+
+/* media queries for a mobile screen*/
+
+
+/* media queries for a mobile screen*/
+
+
+@media screen and (max-width: 480px) {
+    .navbar {  
+      width: 100%;
+        font-size: 75%;
+        justify-content:center;
+  
+    }
+.navbar h1 {
+  font-size: 18px;
+  top: -20;
+  left: 50px;
+  text-decoration: underline;
+
+  
+  
+}
+  .navbar nav ul {
+    top: 50px;
+    left: -186px;
+    display: inline;
+    position: absolute
+    
+  
+  }
+  /*hero*/
+.hero {
+  display:flex;
+  position: relative;
+  width: 100vh;
+  align-self: center;
+}
+  
+}
+  /* About Me */
+  .title {
+    font-size: 100%;
+  left: -1px;
+    top: 280px;
+    text-decoration: underline; 
+    position: absolute
+  }
+  .vertical{
+    left: 9px;
+    height: 100px;
+  
+    
+  }
+  .text{
+    left: 9%;
+    padding: none;
+    font-size: 12px;
+    width: 280px;
+    
+    
+  }
+  /* my work */
+.title2 {
+  top: -60px;
+  left: -0px;
+  text-decoration: underline
+}
+  .vertical2 {
+    top: 10px;
+    left: 9px;
+  }
+  
+.comingsoon1 {
+  height: 300px;
+  width: 290px;
+  left: 25px
+}
+  .card {
+    display: inline;
+    flex: 1 0 0;
+    
+    height: 183px;
+    width: 275px;
+    position: relative;
+    top: -250px;
+    right: -24px;
+    
+  }
+  
+  /* contact me */
+  .title3 {
+text-decoration: underline
+  }
+  .vertical3 {
+    left: 90px
+  }
+
+  .contact ul li {
+    left: 112px
+  }
+
+  /*footer*/
+  .footer {
+    width: 800px;
+  }
+  h4 {
+    left: -0%
+  }
+
+/* media queries for a tablet screen*/
+
+
+@media screen and (max-width: 768px) {
+    .navbar {  
+      width: 100%;
+        font-size: 75%;
+        justify-content:center;
+  
+    }
+.navbar h1 {
+  font-size: 18px;
+  top: -20px;
+  left: -30px
+
+  
+  
+}
+  .navbar nav ul {
+    top: 50px;
+    left: -186px;
+    display: inline;
+    position: absolute
+    
+  
+  }
+  /*hero*/
+.hero {
+  display:flex;
+  position: relative;
+  width: 100vh;
+  align-self: center;
+}
+  
+}
+  /* About Me */
+  .title {
+    font-size: 75%;
+  left: 4px;
+    top: 280px;
+    text-decoration: underline; 
+    position: absolute
+  }
+  .vertical{
+top: -80px;
+    height: 100px;
+  
+    
+  }
+  .text{
+    left: 4%;
+    padding: none;
+    font-size: 12px;
+    width: 280px;
+    
+    
+  }
+  /* my work */
+.title2 {
+  font-size: 75%;
+  top: -60px;
+  left: 4px;
+  text-decoration: underline
+}
+  .vertical2 {
+    top: 10px;
+    left: 9px;
+  }
+  
+.comingsoon1 {
+  height: 300px;
+  width: 290px;
+  left: 25px
+}
+  .card {
+    display: inline;
+    flex: 1 0 0;
+    height: 183px;
+    width: 275px;
+    position: relative;
+    top: -250px;
+    right: -24px;
+    
+  }
+  
+  /* contact me */
+  .title3 {
+text-decoration: underline
+  }
+  .vertical3 {
+    left: 90px
+  }
+
+  .contact ul li {
+    left: 112px
+  }
+
+  /*footer*/
+  .footer {
+    width: 800px;
+  }
+  h4 {
+    left: -0%
+  }
+/* media queries for a desktop screen*/
+
+
+@media screen and (max-width: 1200px) {
+    .navbar {  
+      width: 100%;
+        font-size: 75%;
+        justify-content:center;
+  
+    }
+.navbar h1 {
+  font-size: 18px;
+  top: -20px;
+  left: -30px
+
+  
+  
+}
+  .navbar nav ul {
+    top: 50px;
+    left: -186px;
+    display: inline;
+    position: absolute
+    
+  
+  }
+  /*hero*/
+.hero {
+  display:flex;
+  position: relative;
+  width: 100vh;
+  align-self: center;
+}
+  
+}
+  /* About Me */
+  .title {
+    font-size: 75%;
+  left: 4px;
+    top: 280px;
+    text-decoration: underline; 
+    position: absolute
+  }
+  .vertical{
+top: -80px;
+    height: 100px;
+  
+    
+  }
+  .text{
+    left: 4%;
+    padding: none;
+    font-size: 12px;
+    width: 280px;
+    
+    
+  }
+  /* my work */
+.title2 {
+  font-size: 75%;
+  top: -60px;
+  left: 4px;
+  text-decoration: underline
+}
+  .vertical2 {
+    top: 10px;
+    left: 9px;
+  }
+  
+.comingsoon1 {
+  height: 500px;
+  width: 290px;
+  left: 25px
+}
+  .card {
+    display: flex;
+    flex: 1 0 0;
+    height: 183px;
+    width: 275px;
+    position: relative;
+    top: -250px;
+    right: -24px;
+    
+  }
+  
+  /* contact me */
+  .title3 {
+text-decoration: underline
+  }
+  .vertical3 {
+    left: 100px;
+  }
+
+  .contact ul li {
+    left: 112px;
+  }
+
+  /*footer*/
+  .footer {
+    width: 800px;
+  }
+  h4 {
+    left: -0%
+  }
+/* media queries for a laptop screen*/
+
+
+@media screen and (max-width: 1024px) {
+    .navbar {  
+      width: 100%;
+        font-size: 75%;
+        justify-content:center;
+  
+    }
+.navbar h1 {
+  font-size: 18px;
+  top: -20px;
+  left: -30px
+
+  
+  
+}
+  .navbar nav ul {
+    top: 50px;
+    left: -186px;
+    display: inline;
+    position: absolute
+    
+  
+  }
+  /*hero*/
+.hero {
+  display:flex;
+  position: relative;
+  width: 100vh;
+  align-self: center;
+  
+}
+  
+}
+  /* About Me */
+  .title {
+    font-size: 75%;
+  left: 4px;
+    top: 280px;
+    text-decoration: underline; 
+    position: absolute
+  }
+  .vertical{
+top: -80px;
+    height: 100px;
+  
+    
+  }
+  .text{
+    left: 4%;
+    padding: none;
+    font-size: 12px;
+    width: 280px;
+    
+    
+  }
+  /* my work */
+.title2 {
+  font-size: 75%;
+  top: -60px;
+  left: 4px;
+  text-decoration: underline
+}
+  .vertical2 {
+    top: 10px;
+    left: 9px;
+  }
+  
+.comingsoon1 {
+  height: 300px;
+  width: 290px;
+  left: 25px
+}
+  
+  
+  /* contact me */
+  .title3 {
+text-decoration: underline
+  }
+  .vertical3 {
+    left: 100px;
+  }
+
+  .contact ul li {
+    left: 112px;
+  }
+
+  /*footer*/
+  .footer {
+    width: 800px;
+  }
+  h4 {
+    left: -0%
   }
