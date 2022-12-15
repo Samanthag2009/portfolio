@@ -83,3 +83,45 @@
     overflow-wrap: break-word;
     width: 75%
 }
+
+
+.title2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 01%;
+    top:200px;
+    
+
+}
+
+.vertical2 {
+
+    border-left: 3px solid black;
+    position: relative;
+    height: 200px;
+    top: -100px;
+    Left: 13.6%;
+    
+
+}
+
+.comingsoon1 {
+    width:500px;
+    height:400px;
+    left: 16%;
+    top: -250px;
+    position:relative;
+    border-style:solid;
+    border-color: red;
+}
+
+.card {
+    flex: 1 0 0;
+    
+    hieght: 183px;
+    width: 275px;
+    position: relative;
+    top: -250px;
+    right: -120px;
+    
+  }
